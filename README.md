@@ -11,6 +11,8 @@
 | `pipenv install <package_name> --dev` | Install python dev-package |
 | `pipenv install -r requirements.txt` | Install python packages from requirements.txt |
 | `pipenv install -d` | Install all packages including dev ones |
+| `pipenv update` | Update all installed packages |
+| `pipenv update -d` | Update all installed packages including dev ones |
 | `pipenv uninstall <package_name>` | Delete python package from pipenv |
 | `pipenv uninstall --all` | Delete all python packages from pipenv |
 | `pipenv graph` | Show packages dependency graph |    
