@@ -25,12 +25,14 @@
 | `pipenv --rm` | Delete installed pipenv |
 | `pipenv run <command>` | Execute `command` from pipenv not activating it |
 
-If it needs to change version of python in your pipenv, we could perform it just exchanging the **python_version** in the Pipfile. So then you have to reinitialize your pipenv using  `pipenv --python <typed version>`.
 
-To check whether you need to update your packages in terms of vulnerabilities, type `pipenv check`.
-If so, put the appropriate versions of packages in your Pipfile and type `pipenv install` in your command line.
+## Tips
+If you need to change the Python version in your pipenv, simply update **python_version** in the Pipfile then reinitialize pipenv using  `pipenv --python <typed version>`.
 
-Feel free to create **.env** file within your pipenv. But don't forget to add created one to **.gitignore**
+To check whether you need to update packages for say known vulnerabilities, type `pipenv check`.
+Then change to the appropriate version number for packages specified in the output of `pipenv check` in your Pipfile and type `pipenv install` in your command line.
+
+You can also bake in environment variables by creating an **.env** file within your pipenv root directory. Just remember to add the file to **.gitignore** so as not to expose any sensitive information such as passwords/tokens/etc.
 
 
 ## Great Resources
