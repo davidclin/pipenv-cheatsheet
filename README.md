@@ -1,4 +1,4 @@
-#### pipenv-cheatsheet
+## Summary
 
 | Operation     | Description |
 | ------------- |-------------|
@@ -30,6 +30,6 @@ If so, put the appropriate versions of packages in your Pipfile and type `pipenv
 Feel free to create **.env** file within your pipenv. But don't forget to add created one to **.gitignore**
 
 
-# Great Resources
+## Great Resources
 [PipEnv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/)<br>
 [YouTube: Easily Manage Packages and Virtual Envinronments](https://www.youtube.com/watch?v=zDYL22QNiWk)
