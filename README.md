@@ -1,7 +1,7 @@
 ![Banner](https://github.com/davidclin/pipenv-cheatsheet/blob/master/images/pipenv_banner.gif)
 
 
-## Summary
+## Command Summary
 
 | Operation     | Description |
 | ------------- |-------------|
