@@ -35,7 +35,7 @@ Then change to the appropriate version number for packages specified in the outp
 You can also bake in environment variables by creating an **.env** file within your pipenv root directory. Just remember to add the file to **.gitignore** so as not to expose any sensitive information such as passwords/tokens/etc.
 
 
-## Great Resources
+## Learn More
 [Official pypi.org pipenv Project](https://pypi.org/project/pipenv/)<br>
 [PipEnv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/)<br>
 [YouTube: Easily Manage Packages and Virtual Envinronments](https://www.youtube.com/watch?v=zDYL22QNiWk)
