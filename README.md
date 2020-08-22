@@ -31,6 +31,6 @@ Feel free to create **.env** file within your pipenv. But don't forget to add cr
 
 
 ## Great Resources
-[Official pypi.org pipenv Project](https://pypi.org/project/pipenv/)
+[Official pypi.org pipenv Project](https://pypi.org/project/pipenv/)<br>
 [PipEnv: A Guide to the New Python Packaging Tool](https://realpython.com/pipenv-guide/)<br>
 [YouTube: Easily Manage Packages and Virtual Envinronments](https://www.youtube.com/watch?v=zDYL22QNiWk)
